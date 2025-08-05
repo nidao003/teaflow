@@ -5,6 +5,8 @@
  * Setting::get("alipay_app_id") 获取支付宝app_id
  * Setting::get(["alipay_app_id","alipay_secret_key"]) 获取支付宝app_id和支付宝密钥
  * Setting::get(["alipay_*"])  以 alipay_ 开头的配置
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Classes;

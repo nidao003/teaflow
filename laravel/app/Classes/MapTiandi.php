@@ -1,6 +1,9 @@
 <?php
 /**
- *  http://lbs.tianditu.gov.cn/server/search2.html
+ * http://lbs.tianditu.gov.cn/server/search2.html
+ * 天地图
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Classes;

@@ -1,5 +1,8 @@
 <?php
-
+/** 
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
+ */
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

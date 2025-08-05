@@ -3,6 +3,8 @@
  * 清空打印机队列
  *
  * php artisan app:clean-printer
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Console\Commands;

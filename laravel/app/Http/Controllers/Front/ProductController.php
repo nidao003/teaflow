@@ -1,5 +1,8 @@
 <?php
-
+/** 
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
+ */
 namespace App\Http\Controllers\Front;
 
 use Illuminate\Http\Request;

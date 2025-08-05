@@ -1,6 +1,8 @@
 <?php
 /**
  * broadcast(new \App\Events\StorePaidEvent(1));
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Events;

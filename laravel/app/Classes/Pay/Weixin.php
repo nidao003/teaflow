@@ -7,6 +7,8 @@
  *
  * 官方文档
  * https://pay.weixin.qq.com/wiki/doc/apiv3/index.shtml
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Classes\Pay;

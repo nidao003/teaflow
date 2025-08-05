@@ -3,6 +3,8 @@
  * 未支付订单过期退回优惠券
  *
  * php artisan app:order-refund
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Console\Commands;

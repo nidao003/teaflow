@@ -1,6 +1,8 @@
 <?php
 /**
  * 优惠券
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Classes;

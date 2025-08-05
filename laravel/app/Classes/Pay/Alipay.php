@@ -7,6 +7,8 @@
  *
  * sandbox 环境
  * https://openhome.alipay.com/develop/sandbox/app
+ * @author sunkangchina <68103403@qq.com>
+ * @license MIT <https://mit-license.org/> 
  */
 
 namespace App\Classes\Pay;

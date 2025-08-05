@@ -1,0 +1,266 @@
+$uni-color-primary: #007aff;
+$uni-color-success: #1b7d2b;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+$uni-btn-success-color: #FFF;
+$uni-active-btn: #1b7d2b;
+.ui-red{
+	color:$uni-color-error !important;
+}
+.ui-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.ui-margin-top-20{
+	margin-top:20px;
+}
+.ui-flex-warp{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ui-center {
+    text-align: center;
+}
+
+.ui-b {
+    font-weight: bold;
+}
+
+.ui-color-white {
+    color: #fff;
+}
+
+.ui-card {
+    border-radius: 5px solid $uni-border-color;
+    padding: 10px;
+    background: #fff;
+}
+
+.ui-wrap {
+    flex-wrap: wrap;
+}
+
+.ui-margin {
+    margin: 10px;
+}
+
+.ui-font-big {
+    font-size: 28px;
+}
+
+.ui-font-mid {
+    font-size: 22px;
+}
+
+.ui-margin-top-30 {
+    margin-top: 30px;
+}
+
+.ui-radius {
+    border-radius: 10px;
+}
+
+.ui-success-btn {
+    background-color: $uni-color-success;
+    color: $uni-btn-success-color;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ui-login-btn {
+    background-color: #fff;
+    color: $uni-color-success !important;
+    font-size: 13px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ui-success-color {
+    color: $uni-color-success;
+}
+
+.ui-font-small {
+    font-size: 12px;
+}
+
+.ui-grey {
+    color: $uni-text-color-grey;
+}
+
+.ui-margin-top {
+    margin-top: 10px;
+}
+
+.ui-color-default {
+    color: $uni-color-primary;
+}
+
+.ui-flex {
+    display: flex;
+}
+
+.ui-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui-align-start {
+    align-items: flex-start;
+}
+
+.ui-block {
+    display: block;
+}
+
+.ui-align-center {
+    align-items: center;
+}
+
+.ui-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.ui-flex-end {
+    display: flex;
+    justify-content: end;
+}
+
+.ui-bottom-dash {
+    border-bottom: 1px dashed $uni-text-color-grey;
+}
+
+.ui-top-dash {
+    border-top: 1px dashed $uni-text-color-grey;
+}
+
+.ui-padding-top {
+    padding-top: 10px;
+}
+
+.ui-padding-bottom {
+    padding-bottom: 10px;
+}
+
+.ui-width-full {
+    width: 100%;
+}
+
+.ui-width-33 {
+    width: 33.33%;
+}
+
+.ui-margin-left-right {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ui-margin-left-right-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ui-margin-left-right-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ui-font {
+    font-size: 14px;
+}
+
+.ui-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.ui-margin-left {
+    margin-left: 10px;
+}
+
+.ui-width-50 {
+    width: 50%;
+}
+
+.ui-margin-top-10 {
+    margin-top: 10px;
+}
+
+.ui-button {
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 0 12px;
+    border: 1px solid;
+    color: #fff;
+}
+
+.ui-button-success {
+    background-color: $uni-color-success;
+    border-color: $uni-color-success;
+}
+
+.ui-button-error {
+    background-color: $uni-color-error;
+    border-color: $uni-color-error;
+}
+
+.ui-button-warning {
+    background-color: $uni-color-warning;
+    border-color: $uni-color-warning;
+}
+
+.ui-button-default {
+    color: #323233;
+    background-color: #fff;
+    border-color: #ebedf0;
+}
+
+.ui-button::after {
+    border: none;
+}
+
+.ui-relative {
+    position: relative;
+}
+
+.ui-absolute {
+    position: absolute;
+}
+
+
+/**
+ * 白色渐变
+ */
+
+.ui-white-gradient {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+}
+
+.ui-margin-left-right-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ui-margin-left-right-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ui-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.ui-top-line {
+    border-top: 1px solid $uni-border-color;
+}
+
+.ui-bg-white {
+    background: #fff;
+}
+.ui-margin-right{
+	margin-right: 10px;
+}

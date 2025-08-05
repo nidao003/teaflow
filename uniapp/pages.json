@@ -1,0 +1,261 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order/view",
+			"style": {
+				"navigationBarTitleText": "查看订单"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "授权登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/store/store",
+			"style" : 
+			{
+				"navigationBarTitleText" : "附近门店"
+			}
+		},
+		{
+			"path" : "pages/store/view",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单明细"
+			}
+		},
+		{
+			"path" : "pages/order/comment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品评价"
+			}
+		},
+		{
+			"path" : "pages/invoice/invoice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发票管理"
+			}
+		},
+		{
+			"path" : "pages/invoice/view",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发票相关订单"
+			}
+		},
+		{
+			"path" : "pages/invoice/his",
+			"style" : 
+			{
+				"navigationBarTitleText" : "开票记录"
+			}
+		},
+		{
+			"path" : "pages/invoice/titles",
+			"style" : 
+			{
+				"navigationBarTitleText" : "常用抬头"
+			}
+		},
+		{
+			"path" : "pages/invoice/add-title",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/invoice/select",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单开票"
+			}
+		},
+		{
+			"path" : "pages/invoice/select-confirm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "开具发票"
+			}
+		},
+		{
+			"path" : "pages/invoice/select-success",
+			"style" : 
+			{
+				"navigationBarTitleText" : "开具发票"
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收货地址"
+			}
+		},
+		{
+			"path" : "pages/address/add-address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收货地址"
+			}
+		},
+		{
+			"path" : "pages/address/map",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收货地址管理"
+			}
+		},
+		{
+			"path" : "pages/cate/cate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/goods/goods",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品搜索结果"
+			}
+		},
+		{
+			"path" : "pages/goods/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品详情" 
+			}
+		},
+		{
+			"path" : "pages/order/confirm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "确认订单"
+			}
+		},
+		{
+			"path" : "pages/article/article",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/article/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置"
+			}
+		},
+		{
+			"path" : "pages/account/account",
+			"style" : 
+			{
+				"navigationBarTitleText" : "帐号与安全"
+			}
+		},
+		{
+			"path" : "pages/account/delete",
+			"style" : 
+			{
+				"navigationBarTitleText" : "帐号注销"
+			}
+		},
+		{
+			"path" : "pages/coupon/coupon",
+			"style" : 
+			{
+				"navigationBarTitleText" : "优惠券"
+			}
+		},
+		{
+			"path" : "pages/coupon/duihuan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "代金券"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+			}
+		},
+		{
+			"path" : "pages/template/template",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1296db", 
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab/home.png",
+			"selectedIconPath": "static/tab/home-1.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/cate/cate",
+			"iconPath": "static/tab/tea.png",
+			"selectedIconPath": "static/tab/tea-1.png",
+			"text": "点餐"
+		},{
+			"pagePath": "pages/order/order",
+			"iconPath": "static/tab/order.png",
+			"selectedIconPath": "static/tab/order-1.png",
+			"text": "订单"
+		},{
+			"pagePath": "pages/user/user",
+			"iconPath": "static/tab/my.png", 
+			"selectedIconPath": "static/tab/my-1.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"cl-(.*)": "cl-uni-2/components/cl-$1/cl-$1.vue",
+			"ui-(.*)": "@/ui/ui-$1/ui-$1.vue",
+			"^u-(.*)": "dry-uview-ui/components/u-$1/u-$1.vue" 
+		}
+	}
+}

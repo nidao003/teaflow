@@ -1,0 +1,155 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Plus 暗色模式覆盖 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex{
+  display: flex; 
+  align-items: center;
+}
+/* 适用于Webkit浏览器，如Chrome和Safari */
+::-webkit-scrollbar {
+  width: 7px; /* 滚动条宽度 */
+}
+
+/* 滚动条的轨道 */
+::-webkit-scrollbar-track {
+  background: #f7f7f7; /* 轨道颜色 */
+}
+
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background: #888; /* 滑块颜色 */
+  border-radius: 6px; /* 滑块圆角 */
+}
+
+/* 滑块在hover时的颜色 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 滑块hover颜色 */
+}
+
+title{ 
+  color: red !important; /* 这里设置你想要的颜色 */
+}
+.block{
+  display: block;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-top-30{
+  margin-top: 30px;
+}
+.margin-left-10{
+  margin-left: 10px;
+}
+.margin-left-20{
+  margin-left: 20px;
+}
+.margin-left-30{
+  margin-left: 30px;
+}
+.margin-right-10{
+  margin-right: 10px;
+}
+.margin-right-20{
+  margin-right: 20px;
+}
+.margin-right-30{
+  margin-right: 30px;
+}
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.margin-bottom-30{
+  margin-bottom: 30px;
+}
+.drag-handle{ 
+  cursor: move;
+}
+.handle{
+  cursor: pointer;
+}
+.main {
+  padding: 20px;
+}
+.b{
+  font-weight: bold;
+}
+.font-big,.font-big *{
+  font-size: 20px;
+}
+.font-mid,.font-mid *{
+  font-size: 16px;
+}
+.red{
+  color: red;
+}
+.flex-beween{
+  display: flex;
+  justify-content: space-between;
+}
+.font-small{
+  font-size: 12px;
+} 
+.width-100{
+  width: 100%;
+}
+.align-center{
+  align-items: center;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.green{
+  color: green;
+}

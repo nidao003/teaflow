@@ -71,7 +71,7 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-> ⚠️ `.env.example` 中的密钥/口令仅为占位，**必须替换**；`UserSeeder` 会创建默认管理员，首次登录后立即改密。
+> ⚠️ `.env.example` 中保留了上游示例/遗留的密钥与口令（含 APP_KEY、数据库口令），**必须全部替换并轮换**；`admin/.env` 同理。`UserSeeder` 会创建默认管理员，首次登录后立即改密。
 
 ### 管理后台
 

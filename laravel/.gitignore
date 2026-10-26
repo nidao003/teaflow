@@ -19,3 +19,6 @@ yarn-error.log
 /.vscode
 /.php-cs-fixer.cache
 /php-cs-fixer.phar
+
+/database/*.sqlite
+/database/*.sqlite-journal

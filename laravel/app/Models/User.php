@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\Permission\Traits\HasRoles;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Crypt;
 use App\Classes\Qr;
@@ -15,6 +16,7 @@ use Illuminate\Support\Facades\Cache;
 class User extends Authenticatable
 {
     use HasApiTokens;
+    use HasRoles;
     use HasFactory;
     use Notifiable;
 
@@ -31,6 +33,8 @@ class User extends Authenticatable
         'phone',
         'type',
         'birth',
+        'org_unit_id',
+        'data_scope',
     ];
 
     /**

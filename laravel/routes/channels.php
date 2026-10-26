@@ -29,11 +29,14 @@ Broadcast::channel('update-order-store.{store_id}', function (User $user, $store
 });
 
 
-function check_broadcast($user,$store_id){
-    $cur_store_id = \App\Classes\Store::getId();
-    if($store_id && $store_id == $cur_store_id){ 
-        return true;
-    }else{
+if (! function_exists('check_broadcast')) {
+    function check_broadcast($user, $store_id)
+    {
+        $cur_store_id = \App\Classes\Store::getId();
+        if ($store_id && $store_id == $cur_store_id) {
+            return true;
+        }
+
         return false;
     }
 }
